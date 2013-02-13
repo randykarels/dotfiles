@@ -1,9 +1,9 @@
 [user]
-	name = Randy Karels
-	email = rkarels@sparkfun.com
+  name  = Randy Karels
+  email = rkarels@sparkfun.com
 [core]
-	editor = vim
-	excludesfile = /Users/randykarels/.gitignore_global
+  editor = vim
+  excludesfile = /Users/randykarels/.gitignore_global
 [color]
   ui = true
 [alias]
