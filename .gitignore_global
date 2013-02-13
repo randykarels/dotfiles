@@ -1,0 +1,11 @@
+# Python
+*.pyc
+
+# Logs and stuff...
+*.log
+*.sqlite
+
+# OS crap
+.DS_Store?
+Thumbs.db
+
