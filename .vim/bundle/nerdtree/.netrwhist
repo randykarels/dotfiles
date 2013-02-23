@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/randykarels'
+let g:netrw_dirhist_2='/Users/randykarels/Sites/mammalbodywork.com'
+let g:netrw_dirhist_3='/Users/randykarels/Dropbox/lincolnelse.com/content/galleries/3_island_president'
+let g:netrw_dirhist_4='/Users/randykarels'

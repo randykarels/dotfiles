@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/randykarels/spark/paleo/proj'
+let g:netrw_dirhist_2='/Users/randykarels/spark/paleo'
+let g:netrw_dirhist_3='/Users/randykarels/spark/paleo/sfe'
+let g:netrw_dirhist_4='/Users/randykarels/spark/paleo/proj/audit'
+let g:netrw_dirhist_5='/Users/randykarels/spark/paleo/proj'
+let g:netrw_dirhist_6='/Users/randykarels/spark/paleo'
+let g:netrw_dirhist_7='/Users/randykarels/spark/paleo/misc'
+let g:netrw_dirhist_8='/Users/randykarels/spark/paleo'
+let g:netrw_dirhist_9='/Users/randykarels/spark/paleo/proj'
