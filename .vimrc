@@ -12,6 +12,9 @@ set nowritebackup
 " Turn off the swap files. As far as I can tell, it just annoys me
 set noswapfile
 
+" Don't use Ex mode. Use Q for formatting
+map Q gq
+
 " Allows unwritten changes in the buffer if you open another one.
 set hidden
 
