@@ -1,7 +1,9 @@
-call pathogen#infect('~/.vim/bundle')
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" mode is active (on by default), so the active_filetype can be empty
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': [], 'passive_filetypes': ['html'] }
 
 set nocompatible
 
