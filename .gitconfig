@@ -3,7 +3,7 @@
   email = rkarels@sparkfun.com
 [core]
   editor = vim
-  excludesfile = /Users/randykarels/.gitignore_global
+  excludesFile = $HOME/.gitignore_global
 [color]
   ui = true
 [alias]
@@ -16,3 +16,5 @@
   type = cat-file -t
   dump = cat-file -p
   tip = log --pretty=format:'%h %ad | %s%d [%an]' --date=short --max-count=1
+[push]
+	default = simple

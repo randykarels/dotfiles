@@ -9,3 +9,6 @@
 .DS_Store?
 Thumbs.db
 
+#sfe logs
+flog.php
+lib/classes/flog.php

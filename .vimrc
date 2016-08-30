@@ -104,7 +104,7 @@ nnoremap j gj
 nnoremap k gk
 
 "in normal mode, press space to half-page down (like a webpage) 
-nnoremap <space> <C-D> 
+"nnoremap <space> <C-D> 
 
 " easier to swap between vsplit windows.
 nnoremap <C-H> <C-W><C-H>
