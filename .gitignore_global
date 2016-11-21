@@ -14,3 +14,6 @@ Thumbs.db
 #packages
 node_modules
 
+#virual environments
+venv
+
