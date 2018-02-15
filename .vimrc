@@ -81,6 +81,9 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+" use jsx sytnax highlighting in .js files as per https://github.com/mxw/vim-jsx
+let g:jsx_ext_required = 0
+
 " set ,r to save the current buffer and refresh
 " the most recent browswer window
 " depends, obviously, on the applescript file
@@ -89,15 +92,15 @@ vnoremap <tab> %
 " nnoremap <leader>r :w<CR> :silent !osascript ~/src/applescript/refreshChrome.scpt<CR>
 
 " line length
-set wrap
-set linebreak "don't break up words...
-set textwidth=80
-set wrapmargin=0
-set showbreak="+++ "
-set formatoptions=qrn1tc2w
-if ("colorcolumn")
-  set colorcolumn=""  " set to +1 for one column after textwidth
-endif
+" set wrap
+" set linebreak "don't break up words...
+" set textwidth=80   " width to autowrap
+" set wrapmargin=0
+" set showbreak="+++ "
+" set formatoptions=qrn1tc2w
+" if ("colorcolumn")
+"   set colorcolumn=""  " set to +1 for one column after textwidth
+" endif
 
 " scroll up and down one line in an intuitive manner
 nnoremap j gj
