@@ -3,18 +3,16 @@
   email = randy.karels@buzzfeed.com
 [core]
   editor = vim
-	excludesfile = /Users/randykarels/.gitignore_global
+  excludesfile = /Users/randykarels/.gitignore_global
 [color]
   ui = true
 [alias]
   co = checkout
   ci = commit
   st = status
-  timesheet = log --pretty=format:'%s, %h'  --date=short --since='1 days ago'
-  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short --since='14 days ago'
-  lol =  log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  last = log --pretty=format:'%Cred%h%Creset%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -n 20
   type = cat-file -t
   dump = cat-file -p
   tip = log --pretty=format:'%h %ad | %s%d [%an]' --date=short --max-count=1
 [push]
-	default = simple
+  default = simple
