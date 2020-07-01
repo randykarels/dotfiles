@@ -17,6 +17,7 @@ Plug 'https://github.com/mxw/vim-jsx'
 Plug 'https://github.com/mhartington/oceanic-next'
 Plug 'vim-airline/vim-airline'
 Plug 'lifepillar/vim-solarized8'
+Plug 'nvie/vim-flake8'
 
 " Initialize plugin system
 call plug#end()

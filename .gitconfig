@@ -1,9 +1,10 @@
 [user]
-  name  = Randy Karels
-  email = randy.karels@buzzfeed.com
+	name = Randy Karels
+	email = randy.karels@buzzfeed.com
 [core]
   editor = vim
   excludesfile = /Users/randykarels/.gitignore_global
+  pager = cat
 [color]
   ui = true
 [alias]
